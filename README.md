@@ -55,7 +55,7 @@ which shows him all the hotels satisfying his requirements.
 
 ## Application UML
 
-![ClassDiagramExample](./images/UML.png) <br>
+![ClassDiagramExample](./items/images/UML.png) <br>
 
 ## Application Design and Decisions
 
