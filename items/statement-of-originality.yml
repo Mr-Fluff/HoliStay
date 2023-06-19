@@ -1,0 +1,51 @@
+# for information & examples on how to fill this out correctly, see
+# https://cs.anu.edu.au/courses/comp1720/resources/faq/#statement-of-originality
+# this document has been modified for the purpose of the COMP2100/6442 group assignment.
+
+declaration: >-
+  I declare that everything I have submitted in this assignment is entirely our
+  own work, with the following exceptions:
+
+
+# add as many "url+licence+comment" entries as necessary
+# (or remove it altogether if you haven't used any external code)
+code:
+  - comment: Enable scrolling of MapView inside ScrollView (inspired by Stack Overflow)
+    url: https://stackoverflow.com/questions/6546108/mapview-inside-a-scrollview
+    licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license
+  - comment: Structure for Design Factory
+    url: https://wattlecourses.anu.edu.au/pluginfile.php/3161800/mod_resource/content/2/lecture_dp.pdf
+    license: ANU - Open Source License 
+  - comment: Structure for AVL Tree , Tree
+    url: https://gitlab.cecs.anu.edu.au/comp2100/labs/comp2100-lab-04 
+    license: ANU - Open Source License 
+  - comment: Structure for Tokenizer and Parser
+    url: https://gitlab.cecs.anu.edu.au/comp2100/labs/comp2100-lab-07 
+    license: ANU - Open Source License 
+
+
+
+# add as many "url+licence+comment" entries as necessary
+# (or remove it altogether if you haven't used any external assets)
+assets:
+  - comment: "Application dataset"
+    url: https://www.kaggle.com/datasets/airbnb/boston
+    licence: CC0 Public Domain
+  - comment: "Card image for payment"
+    url: https://images.app.goo.gl/WF5A35mofNK2uHmu8
+    licence: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+  - comment: "confirm booking image"
+    url: https://images.app.goo.gl/u5iDnp2tekc6h3AL8
+    licence: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+
+# for each member, write your name and uid here
+# remove any empty "name+uid" entries
+members:
+  - name: Nakul Nambiar
+    uid: u7433687
+  - name: Srinivasa Sai Damarla
+    uid: u7370240
+  - name: Aishwarya Sonavane
+    uid: u7173560
+  - name: Saurabh Ghag
+    uid: u7370442
