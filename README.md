@@ -1,17 +1,15 @@
-# AlwaysExecutable Report
-
 ## Table of Contents
 
 1. [Team Members and Roles](#team-members-and-roles)
-2. [Summary of Individual Contributions](#summary-of-individual-contributions)
-3. [Conflict Resolution Protocol](#conflict-resolution-protocol)
-4. [Application Description](#application-description)
-5. [Application UML](#application-uml)
-6. [Application Design and Decisions](#application-design-and-decisions)
-7. [Summary of Known Errors and Bugs](#summary-of-known-errors-and-bugs)
-8. [Testing Summary](#testing-summary)
-9. [Implemented Features](#implemented-features)
-10. [Team Meetings](#team-meetings)
+2. [Conflict Resolution Protocol](#conflict-resolution-protocol)
+3. [Application Description](#application-description)
+4. [Application UML](#application-uml)
+5. [Application Design and Decisions](#application-design-and-decisions)
+6. [Summary of Known Errors and Bugs](#summary-of-known-errors-and-bugs)
+7. [Testing Summary](#testing-summary)
+8. [Implemented Features](#implemented-features)
+9. [Team Meetings](#team-meetings)
+10. [Acknowledgement](#acknowledgement)
 
 ## Team Members and Roles
 
@@ -21,153 +19,6 @@
 | u7370240 | Srinivasa Sai Damarla | UI Design and Development, Parser, Project Management, Data Fetching, Database handling, Documenting |
 | u7173560 | Aishwarya Sonavane | Tokenizer, Parser, Data Structure, Data Fetching, Testing, Database handling, Documenting, Design Patterns |
 | u7370442 | Saurabh Ghag | UI Design, Documenting, Implementation of Application Features, Database handling, UI Testing |
-
-## Summary of Individual Contributions
-
-*u7433687, Nakul Nambiar, I contribute 25% of the code. Here are my contributions:* 
-* [Booking.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/hoteldetails/booking/Booking.java)
-* [BookingService.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/hoteldetails/booking/BookingService.java)
-* [BookingServiceImpl.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/hoteldetails/booking/BookingServiceImpl.java)
-* [PaymentType.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/hoteldetails/booking/PaymentType.java)
-* [Status.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/hoteldetails/booking/Status.java)
-* [FraudulentHotel.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/hoteldetails/verification/FraudulentHotel.java)
-* [EmailNotification.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/notification/EmailNotification.java)
-* [Notification.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/notification/Notification.java)
-* [NotificationFactory.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/notification/NotificationFactory.java)
-* [NotificationType.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/notification/NotificationType.java)
-* [PushNotification.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/notification/PushNotification.java)
-* [Hotel.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/hoteldetails/Hotel.java)
-* [HotelListActivity.class: onCreate()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/HotelListActivity.java#L85-155)
-* LoginActivity.class: [setClickListener()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/LoginActivity.java#L56-75)
-* RegisterActivity.class: [setClickListener()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/RegisterActivity.java#L68-115)
-* [DataStream.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/DataStream.java)
-* [HoliStayData.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/HoliStayData.java)
-* [Logger.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/Logger.java)
-* [User.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/User.java)
-* [Utils.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/Utils.java)
-* [BookingTest.class](HoliStayApp/app/src/test/java/anu/edu/cecs/holistay/BookingTest.java)
-* [HotelVerificationTest.class](HoliStayApp/app/src/test/java/anu/edu/cecs/holistay/HotelVerificationTest.java)
-* Layout contributions:
-   * activity_login.xml
-   * activity_register.xml
-* Design Patterns proposed:
-   * Singleton
-   * Factory
-* Report contributions:
-   * Conflict Resolution Protocol
-   * Summary of known Errors and Bugs
-   * Implemented Features
-* Slide preparation
-
-*u7370240, Srinivasa Sai Damarla, I contribute 25% of the code. Here are my contributions:* 
-* [Hotel.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/hoteldetails/Hotel.java)
-* [BookingAdapter.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/helper/BookingAdapter.java)
-* ListingAdapter.class: [onBindViewHolder()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/helper/ListingAdapter.java#L48-89)
-* [MyMapViewHelper.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/helper/MyMapViewHelper.java)
-* [BookmarkActivity.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/BookmarkActivity.java)
-* HotelListActivity.class: [setClickListener()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/HotelListActivity.java#L159-207)
-* LoginActivity.class: [onCreate()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/LoginActivity.java#L38-52)
-* [LogoActivity.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/LogoActivity.java)
-* [MyBookingsActivity.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/MyBookingsActivity.java)
-* [ProfileActivity.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/ProfileActivity.java)
-* RegisterActivity.class: [onCreate()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/RegisterActivity.java#L49-65)
-* [SearchResultActivity.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/SearchResultActivity.java)
-* [SelectedHotelActivity.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/SelectedHotelActivity.java)
-* Parser.class: [locationParse()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/Parser.java#L64-80)
-* [ExpForLocation.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/ExpForLocation.java)
-* Tree.class: [findHotelLocation()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/datastructures/Tree.java#L188-203)
-* [LogoActivityTest.class](HoliStayApp/app/src/androidTest/java/anu/edu/cecs/holistay/LogoActivityTest.java)
-* Layout contributions:
-   * activity_bookmark.xml
-   * activity_hotellist.xml
-   * activity_login.xml
-   * activity_logo.xml
-   * activity_my_bookings.xml
-   * activity_profile.xml
-   * activity_register.xml
-   * activity_search_result.xml
-   * activity_selectedhotel.xml
-   * bookingcardlayout.xml
-   * bottom_navigation_menu.xml
-* UI Design proposed:
-   * RecyclerView
-   * MapView
-   * RelativeLayout
-   * BottomNavigationMenu
-   * EditText Background Drawable
-* Report contributions:
-   * UML
-   * Team member and roles
-   * Summary of individual contributions
-   * Team meetings
-   * Implemented Features
-* Miscellaneous contributions:
-   * App logo design
-* Slide preparation
-
-*u7173560, Aishwarya Sonavane, I contribute 25% of the code. Here are my contributions:* 
-* [Hotel.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/hoteldetails/Hotel.java)
-* [AVLTree.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/datastructures/AVLTree.java)
-* [EmptyTree.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/datastructures/EmptyTree.java)
-* [Tree.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/datastructures/Tree.java)
-* [ExpForEqualPrice.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/ExpForEqualPrice.java)
-* [ExpForEqualRating.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/ExpForEqualRating.java)
-* [ExpForHigherPrice.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/ExpForHigherPrice.java)
-* [ExpForHigherRating.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/ExpForHigherRating.java)
-* [ExpForLowerPrice.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/ExpForLowerPrice.java)
-* [ExpForLowerRating.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/ExpForLowerRating.java)
-* [ExpForName.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/ExpForName.java)
-* [Expression.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/Expression.java)
-* [ExpressionCombine.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/ExpressionCombine.java)
-* Parser.class: [parseExpression()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/Parser.java#L24-38), [parseKeyword()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/Parser.java#L44-62), [nameParse()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/Parser.java#L83-99), [ratingParse()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/Parser.java#L105-140), [priceParse()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/parser/Parser.java#L145-181)
-* [MainTokenizer.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/tokenizer/MainTokenizer.java)
-* [Token.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/tokenizer/Token.java)
-* [Tokenizer.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/tokenizer/Tokenizer.java)
-* ListingAdapter.class: [ViewHolder.class](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/helper/ListingAdapter.java#L96-109)
-* HotelListActivity.class: [onCreate()](https://gitlab.cecs.anu.edu.au/u7433687/ga-22s2-comp2100-6442/-/blob/main/HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/HotelListActivity.java#L85-155)
-* [AVLTreeTest.class](HoliStayApp/app/src/test/java/anu/edu/cecs/holistay/AVLTreeTest.java)
-* [ParserTest.class](HoliStayApp/app/src/test/java/anu/edu/cecs/holistay/ParserTest.java)
-* [TokenizerTest.class](HoliStayApp/app/src/test/java/anu/edu/cecs/holistay/TokenizerTest.java)
-* Layout contributions:
-   * hotelcardlayout.xml
-   * activity_hotellist.xml
-* Design Patterns proposed:
-   * Iterator
-* Data Structures proposed:
-   * AVL Tree
-* UI Design proposed:
-   * RecyclerView
-   * CardView
-* Report contributions:
-   * UML
-   * Application Design and Decisions
-* Slide preparation
-
-*u7370442, Saurabh Ghag, I contribute 25% of the code. Here are my contributions:* 
-* [BookingStateActivity.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/BookingStateActivity.java)
-* [ConfirmedBooking.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/ConfirmedBooking.java)
-* [ConfirmedPayment.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/ConfirmedPayment.java)
-* [PaymentMode.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/PaymentMode.java)
-* [PaymentState.class](HoliStayApp/app/src/main/java/anu/edu/cecs/holistay/ui/PaymentState.java)
-* [BookingStateClassTest.class](HoliStayApp/app/src/androidTest/java/anu/edu/cecs/holistay/BookingStateClassTest.java)
-* Layout contributions:
-   * activity_booking_state.xml
-   * activity_confirm.xml
-   * activity_confirmed_booking.xml
-   * activity_payment_mode.xml
-   * activity_payment_state.xml
-* UI Design proposed:
-   * FloatingActionButton
-   * SpinnerStyle for Date Picker Buttons
-   * Toggle radio button for payment mode
-* Report contributions:
-   * Application Description
-   * UML
-   * Summary of Known error and bugs
-* Miscellaneous contributions:
-   * Dataset Cleaning
-   * Dataset uploading in the Firebase
-   * UI Testing
 
 ## Conflict Resolution Protocol
 
@@ -394,3 +245,7 @@ Feature Category: Special Feature <br>
 - *[Team Meeting 4](./meeting4.md)*
 - *[Team Meeting 5](./meeting5.md)*
 - *[Team Meeting 6](./meeting6.md)*
+
+## Acknowledgement
+This project was created as part of the Software Construction course (COMP2100/6442) at the Australian National University convened by Dr. Bernardo Pereira Nunes.
+
