@@ -180,7 +180,7 @@ Types of tests created: Junit test cases  <br>
 |     ParserTest |      Classes in Parser Package|
 |     TokenizerTest  |  MainTokenizer , Token|
 
-![ClassDiagramExample](./images/TestCoverage.png) <br>
+![ClassDiagramExample](./items/images/TestCoverage.png) <br>
 
 ## Implemented Features
 
