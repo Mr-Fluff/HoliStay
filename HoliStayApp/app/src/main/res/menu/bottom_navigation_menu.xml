@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bookmarks_view"
+        android:title="Bookmarks"
+        android:icon="@drawable/ic_action_bookmarks"/>
+    <item
+        android:id="@+id/hotels_view"
+        android:title="Hotels"
+        android:icon="@drawable/ic_action_hotel"/>
+    <item
+        android:id="@+id/profile_view"
+        android:title="Profile"
+        android:icon="@drawable/ic_action_user"/>
+</menu>
