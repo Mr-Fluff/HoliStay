@@ -247,5 +247,5 @@ Feature Category: Special Feature <br>
 - *[Team Meeting 6](./meeting6.md)*
 
 ## Acknowledgement
-This project was created as part of the Software Construction course (COMP2100/6442) at the Australian National University convened by Dr. Bernardo Pereira Nunes.
+This android application was created as part of the Software Construction course (COMP2100/6442) at the Australian National University convened by Dr. Bernardo Pereira Nunes.
 
